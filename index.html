@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/logo"><img src="static/images/image.jpg" alt="logo"></a></li>
+            <li><a href="/" style="color: white;text-decoration: none;">Home</a></li>
+            <li>
+                <select data-select-name id="select">
+                    <option value="">Main content</option>
+                    <option value="/image">Image</option>
+                    <option value="/videos">Videos</option>
+                    <option value="/audios">Audios</option>
+                </select>
+            </li>
+            <li class="link"><a href="/about" style="color: white;text-decoration: none;">About</a></li>
+        </ul>
+    </nav>
+{% block body %}
+    
+{% endblock body %}
+</body>
+<script src="static/js/java.js"></script>
+</html>

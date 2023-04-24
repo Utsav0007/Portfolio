@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li img{
+    width: 35px;
+    height: 35px;
+    filter: invert(100%);
+}
+nav ul{
+    display: flex;
+    color: white;
+    list-style-type: none;
+    background-color: black;
+    align-items: center;
+    flex-shrink: inherit;
+}
+ul li{
+    margin: 7px 7px;
+}
+#main{
+    background-color: black;
+    color: white;
+    border: 0;
+}
+#select{
+    background-color: black;
+    color: white;
+    border: 0;
+}
+
